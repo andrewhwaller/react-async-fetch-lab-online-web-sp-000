@@ -6,6 +6,7 @@ class App extends Component {
   state = {
     appData: []
   }
+  
   componentDidMount() {
     fetch('')
       .then(response => response.json())
